@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Blog</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <p style="color:red; background-color:green; text-align:center; font-size:10px;">Lorem ipsum dolor sit amet consectetur, adipis
+            icing elit. Aliquid saepe magni error mollitia omnis quibusdam reprehenderit consectetur eos
+            , nobis ad quidem illo nemo nisi beatae officiis voluptatum architecto, cumque ab!<br> Tahsin islam
+        is my name</p>
+       <p>H<sub>2</sub>O</p>
+        <p>a<sup>2</sup>+2ab+b<sup>2</sup></p>
+        <p>Tahsin says <blockquote>Take a rist</blockquote></p>
+        <p>Tahsin says <q>Take a risk</q></p>
+        <address>Tahsin isla,kaligonj,jhenaidah</address>
+        <abbr title="Bangladesh">Bd</abbr>
+        <bdo dir="rtl">Tahsin</bdo>
+        <!--The end-->
+        <a href="https//www.google.com " terget="_blank">Google</a>
+        <img src="Pictures/Camera Roll/WIN_20190525_12_05_00_Pro.jpg" height="50px">
+        <h1>Student list</h1>
+        <table border="1">
+            <tr>
+                <th>name</th>
+                <th>roll</th>
+            </tr>
+            <tr><td>Tahsin</td>
+                <td>13</td>
+            </tr>
+
+        </table>
+       <ol type="A">
+        <li>Tahsin</li>
+        <li>islam</li>
+        <li>chaul</li>
+       </ol>
+       <ul>
+        <li><a href="#">hi</a></li>
+       </ul>
+       <dl>
+        <li>hdd</li>
+       </dl>
+         
+
+       
+
+    </body>
+</html>
