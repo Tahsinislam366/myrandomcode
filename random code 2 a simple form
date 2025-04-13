@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            height:200px;
+            width:250px;
+            margin-left:450px;
+            background-color: rgb(24, 230, 161);
+            border: 2px solid rgb(14, 29, 233);
+            box-shadow: 5px 5px 30px 10px rgb(230, 9, 119);
+            outline: 1px solid rgb(255, 217, 0);
+            margin-top:50px;
+        }
+        body{
+            background-image:url();
+          background-color:rgb(17, 6, 12)  
+        }
+        #box{
+            color:#fff;
+            background-color:red;
+            box-shadow: 2px 2px 2px 2px greenyellow;
+            text-shadow:3px 3px 3px green;
+            padding-right: 30px;
+            margin-left: 30px;
+            padding-left: 30px;
+        }
+        #box:hover{
+            background-color:black;
+
+        }
+        #box:active{
+            border:5px dashed green;
+            transition: .1s;
+        }
+        .nameform.nameform:hover{
+            border:2px solid rgb(17, 204, 48);
+            transition: 1s;
+            text-transform: lowercase;
+            
+        }
+        .radio{
+            border:1px solid rgb(8, 136, 221)
+        }
+        h1{
+            color:white;
+            border:1px dashed greenyellow;
+            text-align:center;
+            
+           
+        }
+
+        
+    </style>
+</head>
+<body>
+     <h1>Login:</h1>
+    <form action="#" method="post">
+        
+        <fieldset>
+            
+            <legend>Contuct us</legend>
+            First name<br>
+            <input type="text" placeholder="FiRST NAME:" class="nameform"><br>
+            Last name<br>
+            <input type="text" placeholder="Last name:" class="nameform"><br>
+            Gender:
+            <div class="radio"><input type="radio" name="gender">Male</div>
+            <div  class="radio"><input type="radio" name="gender">Female
+            </div>    
+            <div class="radio"><input type="radio" name="gender">Other</div> <br>
+           <br>
+
+        </fieldset>
+        <input type="checkbox">I agree
+        <input type="submit" value="send" id="box">
+    </form>
+   
+</body>
+</html>
